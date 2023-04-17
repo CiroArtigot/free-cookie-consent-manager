@@ -1,0 +1,29 @@
+{
+  "name": "free-cookie-consent-manager",
+  "version": "1.1.0",
+  "description": "A free Cookie Consent Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CiroArtigot/free-cookie-consent-manager.git"
+  },
+  "keywords": [
+    "Cookie",
+    "Consent",
+    "Google",
+    "Consent",
+    "Mode"
+  ],
+  "author": "Ciro Artigot",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/CiroArtigot/free-cookie-consent-manager/issues"
+  },
+  "homepage": "https://github.com/CiroArtigot/free-cookie-consent-manager#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}
