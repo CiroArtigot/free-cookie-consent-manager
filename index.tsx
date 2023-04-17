@@ -5,7 +5,7 @@ import * as React from 'react';
 
 import CookiesModalSettings from "./config/config.json";
 
-export const cookieConsentManager = ({ cookie_locale }) => {
+export const CookieConsentManager = ({ cookie_locale }) => {
 
       const router = useRouter();
       let locale: string = router.locale ?? cookie_locale;
