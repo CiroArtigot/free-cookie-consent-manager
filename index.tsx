@@ -1,14 +1,12 @@
 
 import Script from 'next/script';
-import { useRouter } from 'next/router';
 import * as React from 'react';
 
 import CookiesModalSettings from "./config/config.json";
 
 export const CookieConsentManager = ({ cookie_locale }) => {
 
-      const router = useRouter();
-      let locale: string = router.locale ?? cookie_locale;
+      let locale: string = cookie_locale;
 
       const CookieMain = CookiesModalSettings.json.Main;  
       const localeObj = CookiesModalSettings.json.Locales[locale];
